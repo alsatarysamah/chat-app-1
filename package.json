@@ -4,9 +4,9 @@
   "description": "Realtime chat app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server",
-    "dev":"nodemon server"
+    "test": "jest --verbose --coverage",
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -14,13 +14,14 @@
   },
   "keywords": [],
   "author": "",
-  "license":"ISC",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/abuobaid9/chat-app/issues"
   },
   "homepage": "https://github.com/abuobaid9/chat-app#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "jest": "^28.1.2",
     "moment": "^2.29.3",
     "socket.io": "^4.5.1"
   }
